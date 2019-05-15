@@ -1,26 +1,25 @@
 {
   "name": {
-    "en": "Name of extension (required in at least one language)"
+    "en": "Contact point identifier",
+    "fr": "Identifiant du point de contact",
+    "es": "identificación del punto de contacto"
   },
   "description": {
-    "en": "A brief description of what this extension does, this will be pulled into the main docs as a link (required in at least one language)"
+    "en": "Addition of an identifier to the ContactPoint block",
+    "fr": "Ajout d'un indentifiant au bloc ContactPoint",
+    "es": "Adicición de una identificación al objeto ContactPoint"
   },
   "documentationUrl": {
-    "en": "http://httpbin.org/anything/path/to/documentation/in/specified/language"
+    "en": "https://github.com/ColinMaudry/ContactPoint_identifier_extension_template",
+    "fr": "https://github.com/ColinMaudry/ContactPoint_identifier_extension_template",
+    "es": "https://github.com/ColinMaudry/ContactPoint_identifier_extension_template"
   },
   "schemas": [
-    "record-package-schema.json",
-    "release-package-schema.json",
     "release-schema.json"
   ],
-  "codelists": [
-    "emptyCodelist.csv"
-  ],
+  "codelists": [],
   "compatibility": [
     "1.1"
   ],
-  "dependencies": [
-    "http://httpbin.org/anything/path/to/extension1/extension.json",
-    "http://httpbin.org/anything/path/to/extension2/extension.json"
-  ]
+  "dependencies": []
 }
