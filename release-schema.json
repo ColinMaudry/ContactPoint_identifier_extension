@@ -1,1 +1,14 @@
-{}
+{
+	"definitions": {
+		"ContactPoint": {
+			"properties": {
+                "identifier": {
+                    "title": "Identifier",
+                    "description": "The organization that is the contact point for the party.",
+                    "type": "object",
+                    "$ref": "#/definitions/Identifier"
+                }
+			}
+		}
+	}
+}
