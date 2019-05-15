@@ -11,7 +11,7 @@
   "license": "http://opendatacommons.org/licenses/pddl/1.0/",
   "publicationPolicy": "https://github.com/open-contracting/sample-data/",
   "extensions": [
-      "https://raw.githubusercontent.com/ColinMaudry/ContactPoint_identifier_extension/bad_practice/extension.json"
+      "https://raw.githubusercontent.com/ColinMaudry/ContactPoint_identifier_extension/master/extension.json"
   ],
   "releases": [
     {
@@ -44,9 +44,8 @@
           },
           "contactPoint": {
             "identifier": {
-                "id": "GB-LAC-E08977687",
-                "legalName": "Fallington Ltd.",
-                "scheme": "GB-LAC"
+                "id": "GB-COH-11111111",
+                "name": "AnyCorp Cycle Provision"
             },
             "name": "Procurement Team",
             "email": "procurement-team@example.com",
