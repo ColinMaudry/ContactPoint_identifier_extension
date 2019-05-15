@@ -46,12 +46,7 @@
             "identifier": {
                 "id": "GB-COH-11111111",
                 "name": "AnyCorp Cycle Provision"
-            },
-            "name": "Procurement Team",
-            "email": "procurement-team@example.com",
-            "telephone": "01234 345 346",
-            "faxNumber": "01234 345 345",
-            "url": "http://example.com/contact/"
+            }
           }
         },
         {
